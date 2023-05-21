@@ -1,0 +1,60 @@
+body {
+  padding: 20px;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 20px;
+  text-align: left;
+  padding: 2px;
+}
+.wrp {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 20px;
+  text-align: left;
+  padding: 2px;
+}
+
+.wrp div {
+  height: 20px;
+
+  background-color: white;
+  color:orange;
+  border: 3px solid orange;
+  padding: 10px;
+  flex-grow: 1;
+  border-radius: 15px;
+}
+.box1 {
+  height: 200px;
+  min-width: 200px;
+  background-color: orange;
+  color: white;
+  border: 3px solid white;
+  padding: 10px;
+  flex-grow: 1;
+  border-radius: 15px;
+}
+
+.box2 {
+  height: 65px;
+  background-color: orange;
+  color: white;
+  border: 3px solid white;
+  padding: 5px;
+  flex-grow: 1;
+  border-radius: 15px;
+}
+
+.box3 {
+  height: 65px;
+  background-color: orange;
+  color: white;
+  border: 3px solid white;
+  padding: 5px;
+  flex-grow: 1;
+  border-radius: 15px;
+}
